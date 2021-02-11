@@ -33,7 +33,7 @@ html {
 
 .container {
   width: 600px;
-  height: 750px;
+  height: 800px;
   border-radius: 4px;
   background: #DEE0E0;
   padding: 30px;
@@ -65,4 +65,44 @@ html {
   font-size: 1.8rem;
   font-family: "Quicksand", sans-serif;
   padding: 16px;
+  cursor: pointer;
+}
+
+.header-btn:hover {
+  color: #fff;
+}
+
+.add {
+  padding: 16px;
+}
+
+.add-form {
+  display: flex;
+  align-items: center;
+}
+
+.add-input {
+  background: unset;
+  border: unset;
+  padding: 0 6px;
+  flex: 1;
+  border-bottom: 1px solid var(--main-btn-color);
+  outline: unset;
+  font-family: "Cinzel", serif;
+  font-size: 16px;
+}
+
+.add-btn {
+  font-size: 1.8rem;
+  font-family: "Quicksand", sans-serif;
+  padding: 16px;
+  padding-right: unset;
+  border: unset;
+  background: unset;
+  cursor: pointer;
+  outline: unset;
+}
+
+.add-btn:hover {
+  color: #fff;
 }
